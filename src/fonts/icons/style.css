@@ -1,0 +1,10 @@
+@font-face {
+    font-family: materialdesignicons;
+    font-style: normal;
+    font-weight: 400;
+    src: url('materialdesignicons-webfont.eot');
+    src: url('materialdesignicons-webfont.eot?#iefix') format('embedded-opentype'),
+    url('materialdesignicons-webfont.woff2') format('woff2'),
+    url('materialdesignicons-webfont.woff') format('woff'),
+    url('materialdesignicons-webfont.ttf') format('truetype')
+}

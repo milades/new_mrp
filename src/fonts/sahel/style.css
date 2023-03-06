@@ -1,0 +1,59 @@
+@font-face {
+    font-family: sahel;
+    font-style: normal;
+    font-weight: 400;
+    src: url('sahel.eot');
+    src: url('sahel.eot?#iefix') format('embedded-opentype'),
+    url('sahel.woff') format('woff'),
+    url('sahel.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sahel-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('sahel-bold.eot');
+    src: url('sahel-bold.eot?#iefix') format('embedded-opentype'),
+    url('sahel-bold.woff') format('woff'),
+    url('sahel-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sahel-black;
+    font-style: normal;
+    font-weight: 400;
+    src: url('sahel-black.eot');
+    src: url('sahel-black.eot?#iefix') format('embedded-opentype'),
+    url('sahel-black.woff') format('woff'),
+    url('sahel-black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sahel-Farsi-Digits-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/sahel-fd.eot');
+    src: url('Farsi-Digits/sahel-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/sahel-fd.woff') format('woff'),
+    url('Farsi-Digits/sahel-fd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sahel-Farsi-Digits-bold-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/sahel-bold-fd.eot');
+    src: url('Farsi-Digits/sahel-bold-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/sahel-bold-fd.woff') format('woff'),
+    url('Farsi-Digits/sahel-bold-fd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sahel-Farsi-Digits-black-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/sahel-black-fd.eot');
+    src: url('Farsi-Digits/sahel-black-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/sahel-black-fd.woff') format('woff'),
+    url('Farsi-Digits/sahel-black-fd.ttf') format('truetype');
+}

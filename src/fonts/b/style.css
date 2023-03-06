@@ -1,0 +1,360 @@
+@font-face {
+    font-family: badr;
+    font-style: normal;
+    font-weight: 400;
+    src: url('badr/badr.eot') format('eot'),
+    url('badr/badr.woff') format('woff'),
+    url('badr/badr.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: baran;
+    font-style: normal;
+    font-weight: 400;
+    src: url('baran/baran.eot') format('eot'),
+    url('baran/baran.woff') format('woff'),
+    url('baran/baran.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: bardiya;
+    font-style: normal;
+    font-weight: 400;
+    src: url('bardiya/bardiya.eot') format('eot'),
+    url('bardiya/bardiya.woff') format('woff'),
+    url('bardiya/bardiya.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: compset;
+    font-style: normal;
+    font-weight: 400;
+    src: url('compset/compset.eot') format('eot'),
+    url('compset/compset.woff') format('woff'),
+    url('compset/compset.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: davat;
+    font-style: normal;
+    font-weight: 400;
+    src: url('davat/davat.eot') format('eot'),
+    url('davat/davat.woff') format('woff'),
+    url('davat/davat.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: elham;
+    font-style: normal;
+    font-weight: 400;
+    src: url('elham/elham.eot') format('eot'),
+    url('elham/elham.woff') format('woff'),
+    url('elham/elham.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: esfehanbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('esfehanbold/esfehanbold.eot') format('eot'),
+    url('esfehanbold/esfehanbold.woff') format('woff'),
+    url('esfehanbold/esfehanbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: fantezy;
+    font-style: normal;
+    font-weight: 400;
+    src: url('fantezy/fantezy.eot') format('eot'),
+    url('fantezy/fantezy.woff') format('woff'),
+    url('fantezy/fantezy.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: farnaz;
+    font-style: normal;
+    font-weight: 400;
+    src: url('farnaz/farnaz.eot') format('eot'),
+    url('farnaz/farnaz.woff') format('woff'),
+    url('farnaz/farnaz.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: ferdosi;
+    font-style: normal;
+    font-weight: 400;
+    src: url('ferdosi/ferdosi.eot') format('eot'),
+    url('ferdosi/ferdosi.woff') format('woff'),
+    url('ferdosi/ferdosi.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: hamid;
+    font-style: normal;
+    font-weight: 400;
+    src: url('hamid/hamid.eot') format('eot'),
+    url('hamid/hamid.woff') format('woff'),
+    url('hamid/hamid.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: helal;
+    font-style: normal;
+    font-weight: 400;
+    src: url('helal/helal.eot') format('eot'),
+    url('helal/helal.woff') format('woff'),
+    url('helal/helal.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: homa;
+    font-style: normal;
+    font-weight: 400;
+    src: url('homa/homa.eot') format('eot'),
+    url('homa/homa.woff') format('woff'),
+    url('homa/homa.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: jadidbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('jadidbold/jadidbold.eot') format('eot'),
+    url('jadidbold/jadidbold.woff') format('woff'),
+    url('jadidbold/jadidbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: jalal;
+    font-style: normal;
+    font-weight: 400;
+    src: url('jalal/jalal.eot') format('eot'),
+    url('jalal/jalal.woff') format('woff'),
+    url('jalal/jalal.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: koodakbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('koodakbold/koodakbold.eot') format('eot'),
+    url('koodakbold/koodakbold.woff') format('woff'),
+    url('koodakbold/koodakbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: kourosh;
+    font-style: normal;
+    font-weight: 400;
+    src: url('kourosh/kourosh.eot') format('eot'),
+    url('kourosh/kourosh.woff') format('woff'),
+    url('kourosh/kourosh.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: lotus;
+    font-style: normal;
+    font-weight: 400;
+    src: url('lotus/lotus.eot') format('eot'),
+    url('lotus/lotus.woff') format('woff'),
+    url('lotus/lotus.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: mahsa;
+    font-style: normal;
+    font-weight: 400;
+    src: url('mahsa/mahsa.eot') format('eot'),
+    url('mahsa/mahsa.woff') format('woff'),
+    url('mahsa/mahsa.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: mehrbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('mehrbold/mehrbold.eot') format('eot'),
+    url('mehrbold/mehrbold.woff') format('woff'),
+    url('mehrbold/mehrbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: mitra;
+    font-style: normal;
+    font-weight: 400;
+    src: url('mitra/mitra.eot') format('eot'),
+    url('mitra/mitra.woff') format('woff'),
+    url('mitra/mitra.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: morvarid;
+    font-style: normal;
+    font-weight: 400;
+    src: url('morvarid/morvarid.eot') format('eot'),
+    url('morvarid/morvarid.woff') format('woff'),
+    url('morvarid/morvarid.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: narm;
+    font-style: normal;
+    font-weight: 400;
+    src: url('narm/narm.eot') format('eot'),
+    url('narm/narm.woff') format('woff'),
+    url('narm/narm.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: nasimbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('nasimbold/nasimbold.eot') format('eot'),
+    url('nasimbold/nasimbold.woff') format('woff'),
+    url('nasimbold/nasimbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: nazanin;
+    font-style: normal;
+    font-weight: 400;
+    src: url('nazanin/nazanin.eot') format('eot'),
+    url('nazanin/nazanin.woff') format('woff'),
+    url('nazanin/nazanin.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: roya;
+    font-style: normal;
+    font-weight: 400;
+    src: url('roya/roya.eot') format('eot'),
+    url('roya/roya.woff') format('woff'),
+    url('roya/roya.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: setarehbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('setarehbold/setarehbold.eot') format('eot'),
+    url('setarehbold/setarehbold.woff') format('woff'),
+    url('setarehbold/setarehbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: shiraz;
+    font-style: normal;
+    font-weight: 400;
+    src: url('shiraz/shiraz.eot') format('eot'),
+    url('shiraz/shiraz.woff') format('woff'),
+    url('shiraz/shiraz.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: sinabold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('sinabold/sinabold.eot') format('eot'),
+    url('sinabold/sinabold.woff') format('woff'),
+    url('sinabold/sinabold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: tabassom;
+    font-style: normal;
+    font-weight: 400;
+    src: url('tabassom/tabassom.eot') format('eot'),
+    url('tabassom/tabassom.woff') format('woff'),
+    url('tabassom/tabassom.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: tehran;
+    font-style: normal;
+    font-weight: 400;
+    src: url('tehran/tehran.eot') format('eot'),
+    url('tehran/tehran.woff') format('woff'),
+    url('tehran/tehran.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: titrbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('titrbold/titrbold.eot') format('eot'),
+    url('titrbold/titrbold.woff') format('woff'),
+    url('titrbold/titrbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: titrtgebold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('titrtgebold/titrtgebold.eot') format('eot'),
+    url('titrtgebold/titrtgebold.woff') format('woff'),
+    url('titrtgebold/titrtgebold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: traffic;
+    font-style: normal;
+    font-weight: 400;
+    src: url('traffic/traffic.eot') format('eot'),
+    url('traffic/traffic.woff') format('woff'),
+    url('traffic/traffic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: vahidbold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('vahidbold/vahidbold.eot') format('eot'),
+    url('vahidbold/vahidbold.woff') format('woff'),
+    url('vahidbold/vahidbold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: yagut;
+    font-style: normal;
+    font-weight: 400;
+    src: url('yagut/yagut.eot') format('eot'),
+    url('yagut/yagut.woff') format('woff'),
+    url('yagut/yagut.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: yas;
+    font-style: normal;
+    font-weight: 400;
+    src: url('yas/yas.eot') format('eot'),
+    url('yas/yas.woff') format('woff'),
+    url('yas/yas.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: yekan;
+    font-style: normal;
+    font-weight: 400;
+    src: url('yekan/yekan.eot') format('eot'),
+    url('yekan/yekan.woff') format('woff'),
+    url('yekan/yekan.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: zar;
+    font-style: normal;
+    font-weight: 400;
+    src: url('zar/zar.eot') format('eot'),
+    url('zar/zar.woff') format('woff'),
+    url('zar/zar.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: ziba;
+    font-style: normal;
+    font-weight: 400;
+    src: url('ziba/ziba.eot') format('eot'),
+    url('ziba/ziba.woff') format('woff'),
+    url('ziba/ziba.ttf') format('ttf');
+}
+

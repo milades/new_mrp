@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: 400;
+    src: url('vazir.eot');
+    src: url('vazir.eot?#iefix') format('embedded-opentype'),
+         url('vazir.woff2') format('woff2'),
+         url('vazir.woff') format('woff'),
+         url('vazir.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-light-FD;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Vazir-Light-FD.eot');
+    src: url('Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Light-FD.woff2') format('woff2'),
+         url('Vazir-Light-FD.woff') format('woff'),
+         url('Vazir-Light-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-light;
+    font-style: normal;
+    font-weight: 400;
+    src: url('vazir-light.eot');
+    src: url('vazir-light.eot?#iefix') format('embedded-opentype'),
+         url('vazir-light.woff') format('woff'),
+         url('vazir-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('vazir-bold.eot');
+    src: url('vazir-bold.eot?#iefix') format('embedded-opentype'),
+         url('vazir-bold.woff') format('woff'),
+         url('vazir-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-Farsi-Digits-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/vazir-fd.eot');
+    src: url('Farsi-Digits/vazir-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/vazir-fd.woff') format('woff'),
+    url('Farsi-Digits/vazir-fd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-Farsi-Digits-bold-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/vazir-bold-fd.eot');
+    src: url('Farsi-Digits/vazir-bold-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/vazir-bold-fd.woff') format('woff'),
+    url('Farsi-Digits/vazir-bold-fd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-Farsi-Digits-light-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/vazir-light-fd.eot');
+    src: url('Farsi-Digits/vazir-light-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/vazir-light-fd.woff') format('woff'),
+    url('Farsi-Digits/vazir-light-fd.ttf') format('truetype');
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: gandom;
+    font-style: normal;
+    font-weight: 400;
+    src: url('gandom.eot');
+    src: url('gandom.eot?#iefix') format('embedded-opentype'),
+    url('gandom.woff') format('woff'),
+    url('gandom.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: gandom-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('gandom-bold.eot');
+    src: url('gandom-bold.eot?#iefix') format('embedded-opentype'),
+    url('gandom-bold.woff') format('woff'),
+    url('gandom-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: gandom-Farsi-Digits-Bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/gandom-bold-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/gandom-bold-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/gandom-bold-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/gandom-bold-persian-digits-overwrite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: gandom-Farsi-Digits;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/gandom-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/gandom-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/gandom-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/gandom-persian-digits-overwrite.ttf') format('truetype');
+}

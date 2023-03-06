@@ -1,0 +1,43 @@
+@font-face {
+    font-family: AvertaPE-Black;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: AvertaPE-Bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Bold.woff') format('woff'),
+    url('AvertaPE-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: AvertaPE-ExtraboldBold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Extrabold.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvertaPE-Light;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Light.woff') format('woff'),
+    url('AvertaPE-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: AvertaPE-Regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: AvertaPE-Semibold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('AvertaPE-Semibold.woff') format('woff');
+}

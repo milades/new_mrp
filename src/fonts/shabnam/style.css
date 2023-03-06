@@ -1,0 +1,39 @@
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: 400;
+    src: url('shabnam.eot');
+    src: url('shabnam.eot?#iefix') format('embedded-opentype'),
+    url('shabnam.woff') format('woff'),
+    url('shabnam.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: shabnam-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('shabnam-bold.eot');
+    src: url('shabnam-bold.eot?#iefix') format('embedded-opentype'),
+    url('shabnam-bold.woff') format('woff'),
+    url('shabnam-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: shabnam-Farsi-Digits-Bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/shabnam-bold-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/shabnam-bold-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/shabnam-bold-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/shabnam-bold-persian-digits-overwrite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: shabnam-Farsi-Digits;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/shabnam-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/shabnam-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/shabnam-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/shabnam-persian-digits-overwrite.ttf') format('truetype');
+}

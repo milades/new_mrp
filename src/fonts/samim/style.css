@@ -1,0 +1,39 @@
+@font-face {
+    font-family: samim;
+    font-style: normal;
+    font-weight: 400;
+    src: url('samim.eot');
+    src: url('samim.eot?#iefix') format('embedded-opentype'),
+    url('samim.woff') format('woff'),
+    url('samim.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: samim-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('samim-bold.eot');
+    src: url('samim-bold.eot?#iefix') format('embedded-opentype'),
+    url('samim-bold.woff') format('woff'),
+    url('samim-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: samim-Farsi-Digits-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/samim-fd.eot');
+    src: url('Farsi-Digits/samim-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/samim-fd.woff') format('woff'),
+    url('Farsi-Digits/samim-fd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: samim-Farsi-Digits-bold-fd;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Farsi-Digits/samim-bold-fd.eot');
+    src: url('Farsi-Digits/samim-bold-fd.eot?#iefix') format('embedded-opentype'),
+    url('Farsi-Digits/samim-bold-fd.woff') format('woff'),
+    url('Farsi-Digits/samim-bold-fd.ttf') format('truetype');
+}

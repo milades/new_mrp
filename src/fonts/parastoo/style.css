@@ -1,0 +1,39 @@
+@font-face {
+    font-family: parastoo;
+    font-style: normal;
+    font-weight: 400;
+    src: url('parastoo.eot');
+    src: url('parastoo.eot?#iefix') format('embedded-opentype'),
+    url('parastoo.woff') format('woff'),
+    url('parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: parastoo-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('parastoo-bold.eot');
+    src: url('parastoo-bold.eot?#iefix') format('embedded-opentype'),
+    url('parastoo-bold.woff') format('woff'),
+    url('parastoo-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: parastoo-Farsi-Digits-Bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/parastoo-bold-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/parastoo-bold-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/parastoo-bold-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/parastoo-bold-persian-digits-overwrite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: parastoo-Farsi-Digits;
+    font-style: normal;
+    font-weight: 400;
+    src: url('persian-digits-overwrite/parastoo-persian-digits-overwrite.eot');
+    src: url('persian-digits-overwrite/parastoo-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('persian-digits-overwrite/parastoo-persian-digits-overwrite.woff') format('woff'),
+    url('persian-digits-overwrite/parastoo-persian-digits-overwrite.ttf') format('truetype');
+}
