@@ -1,17 +1,30 @@
 import React, { useState } from "react";
-import ReactCaptcha from "modern-react-captcha";
-import "./components/public/Captcha.css";
 import logo from "./logo.svg";
 import "./App.css";
-import { Button, Checkbox, Form, Input, Layout, Space, Col, Row } from "antd";
+import {
+  Button,
+  Checkbox,
+  Form,
+  Input,
+  Layout,
+  Space,
+  Col,
+  Row,
+  Divider,
+} from "antd";
 
 const { Header, Footer, Sider, Content } = Layout;
-
+const style = {
+  padding: "8px 0",
+};
 const onFinish = (values) => {
   console.log("Success:", values);
 };
 const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
+};
+const bottomStyle = {
+  width: "100%",
 };
 const headerStyle = {
   textAlign: "center",
@@ -22,24 +35,36 @@ const headerStyle = {
   backgroundColor: "#7dbcea",
 };
 const contentStyle = {
-  textAlign: "center",
-  minHeight: 120,
+  padding: "10 20 10 20",
+  // margin: "24px 16px 0",
+  padding: "0 50px",
+  height: "100%",
+  overflow: "initial",
+  width: "100%",
+  // minHeight: auto,
   lineHeight: "120px",
   color: "#fff",
   backgroundColor: "#FFF",
+  height: "100%",
 };
 const siderStyle = {
   textAlign: "center",
   lineHeight: "120px",
   color: "#fff",
   backgroundColor: "#3ba0e9",
+  width: "500",
 };
 const footerStyle = {
   textAlign: "center",
   color: "#fff",
   backgroundColor: "#7dbcea",
 };
-
+const rowStyle = {
+  height: "80%",
+};
+const layoutStyle = {
+  height: "100vh",
+};
 const App = () => {
   let captchaMatched = false;
 
@@ -50,44 +75,23 @@ const App = () => {
   const handleFailure = () => {
     captchaMatched = false;
   };
-  const handleSubmit = (event) => {
-    event.preventDefault();
 
-    if (captchaMatched) {
-      alert("Form submitted successfully...");
-    } else {
-      alert("Submission failed! Captcha did not match...");
-    }
-  };
   return (
-    <Space
-      direction="vertical"
-      style={{
-        width: "100%",
-      }}
-    >
-      <Layout>
-        <Header style={headerStyle}>Header</Header>
-        <Content style={contentStyle}>
-          <Row>
-            <Col span={8}></Col>
-            <Col
-              span={8}
-              style={{
-                padding: "0 24px",
-                minHeight: 280,
-              }}
-            >
+    <Layout style={layoutStyle}>
+      <Header style={headerStyle}>Header</Header>
+      <Content style={contentStyle}>
+        <Row justify="center" align="middle" style={rowStyle}>
+          <Divider orientation="center">ورود به حساب کاربری</Divider>
+          <Col className="gutter-row" xs={4} sm={1} md={1} lg={2} xl={3}>
+            <div style={style}></div>
+          </Col>
+          <Col className="gutter-row" xs={8} sm={10} md={10} lg={8} xl={6}>
+            <div style={style}>
               <Form
+                layout="vertical"
                 name="basic"
-                labelCol={{
-                  span: 8,
-                }}
-                wrapperCol={{
-                  span: 16,
-                }}
                 style={{
-                  width: 100 + "%",
+                  width: "100%",
                 }}
                 initialValues={{
                   remember: true,
@@ -95,6 +99,7 @@ const App = () => {
                 onFinish={onFinish}
                 onFinishFailed={onFinishFailed}
                 autoComplete="off"
+                labelAlign="right"
               >
                 <Form.Item
                   label="نام کاربری"
@@ -122,67 +127,25 @@ const App = () => {
                   <Input.Password />
                 </Form.Item>
 
-                <Form.Item
-                  name="remember"
-                  valuePropName="checked"
-                  wrapperCol={{
-                    offset: 8,
-                    span: 16,
-                  }}
-                  style={{
-                    textAlign: "right",
-                    width: 100 + "%",
-                  }}
-                >
+                <Form.Item name="remember" valuePropName="checked">
                   <Checkbox>مرا بخاطر بسپار</Checkbox>
                 </Form.Item>
 
-                <Form.Item
-                  wrapperCol={{
-                    offset: 8,
-                    span: 16,
-                  }}
-                  style={{
-                    textAlign: "right",
-                    width: 100 + "%",
-                  }}
-                >
-                  <ReactCaptcha
-                    charset="l/L"
-                    length={6}
-                    color="white"
-                    bgColor="black"
-                    reload={true}
-                    reloadText="Reload Captcha"
-                    //reloadIcon={reloadIcon}
-                    handleSuccess={handleSuccess}
-                    handleFailure={handleFailure}
-                  />
-                </Form.Item>
-
-                <Form.Item
-                  style={{ textAlign: "right" }}
-                  wrapperCol={{
-                    offset: 8,
-                    span: 16,
-                  }}
-                >
-                  <Button
-                    type="primary"
-                    htmlType="submit"
-                    onClick={handleSubmit}
-                  >
+                <Form.Item>
+                  <Button type="primary" htmlType="submit" style={bottomStyle}>
                     ورود
                   </Button>
                 </Form.Item>
               </Form>
-            </Col>
-            <Col span={8}></Col>
-          </Row>
-        </Content>
-        <Footer style={footerStyle}>Footer</Footer>
-      </Layout>
-    </Space>
+            </div>
+          </Col>
+          <Col className="gutter-row" xs={4} sm={1} md={1} lg={2} xl={3}>
+            <div style={style}></div>
+          </Col>
+        </Row>
+      </Content>
+      <Footer style={footerStyle}>Footer</Footer>
+    </Layout>
   );
 };
 export default App;

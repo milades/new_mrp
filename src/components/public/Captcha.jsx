@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactCaptcha from "modern-react-captcha";
+
 const App = () => {
   let captchaMatched = false;
 
@@ -18,18 +18,6 @@ const App = () => {
       alert("Submission failed! Captcha did not match...");
     }
   };
-  return (
-    <ReactCaptcha
-      charset="l/L"
-      length={6}
-      color="white"
-      bgColor="black"
-      reload={true}
-      reloadText="Reload Captcha"
-      //reloadIcon={reloadIcon}
-      handleSuccess={handleSuccess}
-      handleFailure={handleFailure}
-    />
-  );
+  return <div></div>;
 };
 export default App;
