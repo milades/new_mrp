@@ -113,7 +113,6 @@ const App = () => {
                 >
                   <Input />
                 </Form.Item>
-
                 <Form.Item
                   label="رمز عبور"
                   name="password"
@@ -126,9 +125,17 @@ const App = () => {
                 >
                   <Input.Password />
                 </Form.Item>
-
                 <Form.Item name="remember" valuePropName="checked">
                   <Checkbox>مرا بخاطر بسپار</Checkbox>
+                </Form.Item>
+                <Form.Item name="remember" valuePropName="checked">
+                  <Space.Compact direction="horizontal">
+                    <img
+                      src="https://www.researchgate.net/profile/Jonathan-Aigrain/publication/277007505/figure/fig3/AS:667814067204096@1536230689050/Example-of-a-Yahoo-captcha-that-uses-the-negative-kerning.png"
+                      style={{ width: "50%" }}
+                    />
+                    <Input style={{ width: "50%" }} />
+                  </Space.Compact>
                 </Form.Item>
 
                 <Form.Item>
