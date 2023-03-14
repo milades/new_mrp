@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
+import refresh from "./images/refresh.png";
 import "./App.css";
 import {
   Button,
@@ -12,6 +12,8 @@ import {
   Row,
   Divider,
 } from "antd";
+import { Avatar, Card } from "antd";
+const { Meta } = Card;
 
 const { Header, Footer, Sider, Content } = Layout;
 const style = {
@@ -29,7 +31,7 @@ const bottomStyle = {
 const headerStyle = {
   textAlign: "center",
   color: "#fff",
-  height: 64,
+  height: 65,
   paddingInline: 50,
   lineHeight: "64px",
   backgroundColor: "#7dbcea",
@@ -78,7 +80,28 @@ const App = () => {
 
   return (
     <Layout style={layoutStyle}>
-      <Header style={headerStyle}>Header</Header>
+      <Header style={headerStyle}>
+        <Row justify="center" style={{ height: "100%" }}>
+          <Col
+            xs={4}
+            sm={4}
+            md={6}
+            lg={8}
+            xl={10}
+            style={{ textAlign: "right" }}
+          >
+            نام سازمان
+          </Col>
+          <Col xs={16} sm={16} md={12} lg={8} xl={4}>
+            <img
+              alt="example"
+              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              style={{ width: "100px", marginTop: 2, borderRadius: 5 }}
+            />
+          </Col>
+          <Col xs={4} sm={4} md={6} lg={8} xl={10}></Col>
+        </Row>
+      </Header>
       <Content style={contentStyle}>
         <Row justify="center" align="middle" style={rowStyle}>
           <Divider orientation="center">ورود به حساب کاربری</Divider>
@@ -111,8 +134,9 @@ const App = () => {
                     },
                   ]}
                 >
-                  <Input />
+                  <Input maxLength={150} />
                 </Form.Item>
+                <Divider />
                 <Form.Item
                   label="رمز عبور"
                   name="password"
@@ -123,19 +147,60 @@ const App = () => {
                     },
                   ]}
                 >
-                  <Input.Password />
+                  <Input.Password maxLength={200} placeholder="******" />
                 </Form.Item>
+                <Divider />
+                <Form.Item
+                  name="captcha"
+                  label="حروف تصویر"
+                  rules={[
+                    {
+                      required: true,
+                      message: "حروف تصویر نمی تواند خالی باشد",
+                    },
+                  ]}
+                >
+                  <Row align="middle">
+                    <Col
+                      span={12}
+                      className="gutter-row"
+                      xs={24}
+                      sm={24}
+                      md={24}
+                      lg={12}
+                      xl={12}
+                    >
+                      <Input placeholder="" maxLength={10} />
+                    </Col>
+                    <Col
+                      span={12}
+                      className="gutter-row"
+                      xs={24}
+                      sm={24}
+                      md={24}
+                      lg={12}
+                      xl={12}
+                      style={{ textAlign: "center" }}
+                    >
+                      <div className="space-align-block">
+                        <Space align="center">
+                          <img
+                            src="https://www.researchgate.net/profile/Jonathan-Aigrain/publication/277007505/figure/fig3/AS:667814067204096@1536230689050/Example-of-a-Yahoo-captcha-that-uses-the-negative-kerning.png"
+                            style={{ maxHeight: "32px" }}
+                          />
+                          <img
+                            src={refresh}
+                            title="تصویر جدید"
+                            style={{ maxHeight: "15px", cursor: "pointer" }}
+                          />
+                        </Space>
+                      </div>
+                    </Col>
+                  </Row>
+                </Form.Item>
+                <Divider />
                 <Form.Item name="remember" valuePropName="checked">
                   <Checkbox>مرا بخاطر بسپار</Checkbox>
-                </Form.Item>
-                <Form.Item name="remember" valuePropName="checked">
-                  <Space.Compact direction="horizontal">
-                    <img
-                      src="https://www.researchgate.net/profile/Jonathan-Aigrain/publication/277007505/figure/fig3/AS:667814067204096@1536230689050/Example-of-a-Yahoo-captcha-that-uses-the-negative-kerning.png"
-                      style={{ width: "50%" }}
-                    />
-                    <Input style={{ width: "50%" }} />
-                  </Space.Compact>
                 </Form.Item>
 
                 <Form.Item>
